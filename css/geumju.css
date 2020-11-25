@@ -17,7 +17,6 @@ ul, li{list-style: none;}
 .main-panel .content-wrapper .row .card-body > dl:nth-child(3){margin-right: 0;}
 .main-panel .content-wrapper .row .card-body > dl:nth-child(5){margin-right: 0;}
 .main-panel .content-wrapper .row .card-body dl dd span{font-size: 13.5px;}
-.main-panel .content-wrapper .row .card-body select{margin-top: -5px;}
 
 /* 생산량 CSS */
 .product{text-align: center; margin-top: 40px;}
@@ -67,7 +66,25 @@ ul, li{list-style: none;}
 .rpm::before{background: url(../images/Common/rpm.png) no-repeat; display: inline-block; content: ""; width: 40px; height: 40px; vertical-align: bottom; background-position: center center; margin-right: 15px;}
 .flux::before{background: url(../images/Common/flux.png) no-repeat; display: inline-block; content: ""; width: 40px; height: 40px; vertical-align: bottom; background-position: center center; margin-right: 15px;}
 
-@media screen and (max-width:640px){
+@media screen and (max-width:1024px){
+    select{padding: 5px 14px 5px 4px;}
+    .card{font-size: 1em;}
+    .main-panel .content-wrapper .row .card-body > dl{margin-right: 0.2em; margin-bottom: 0.5em;}
+    .main-panel .content-wrapper .row .card-body dl dd{font-size: 0.8em;}
+    .pro-cont .per{margin-left: 20px;}
+    .pro-cont .per p::before{margin-right: 0;}
+    .equip-graph{display: inline-block; height: 100%;}
+    .equip-graph ul{margin-bottom: 5px;}
+    .equip-graph ul:last-child{margin-bottom: 0;}
+    .temper::before{margin-right: 5px;}
+    .rpm::before{margin-right: 5px;}
+    .flux::before{margin-right: 5px;}
+}
+
+@media screen and (max-width:768px){
+    select{padding: 5px 15px 5px 5px;}
+    .main-panel .content-wrapper .row .card-body dl dd{font-size: 1.25em;}
+    .card{font-size: 1em;}
     .equip-graph{display: inline-block; height: 100%; padding: 5px;}
     .equip-graph ul{margin-bottom: 5px;}
     .equip-graph ul:last-child{margin-bottom: 0;}
