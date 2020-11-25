@@ -16,7 +16,7 @@ ul, li{list-style: none;}
 .main-panel .content-wrapper .row .card-body dl dd{text-align: center; font-size: 1.25em; color: #fff; margin-bottom: 0; font-weight: 700;}
 .main-panel .content-wrapper .row .card-body > dl:nth-child(3){margin-right: 0;}
 .main-panel .content-wrapper .row .card-body > dl:nth-child(5){margin-right: 0;}
-.main-panel .content-wrapper .row .card-body dl dd span{font-size: 0.85em;}
+.main-panel .content-wrapper .row .card-body dl dd span{font-size: 13.5px;}
 .main-panel .content-wrapper .row .card-body select{margin-top: -5px;}
 
 /* 생산량 CSS */
@@ -25,18 +25,18 @@ ul, li{list-style: none;}
 .product .pro-name{font-size: 0.95em; display: inline-block; margin-bottom: 22px; font-weight: 700;}
 .product .ml{font-size: 0.95em;}
 .pro-cont{display: flex; justify-content: space-around; background-color: #424553; border-radius: 5px; padding: 28px 48px;}
-.pro-cont div p{display: inline;}
+.pro-cont div p{display: inline; color: #fff;}
 .pro-cont div:first-child{border-right: #72747d 1px solid; padding-right: 25%;}
 .pro-cont .per{margin-top: 5px;}
 .pro-cont .per p::before{background: url(../images/Common/arrow.png) no-repeat; content: ""; width: 35px; height: 47px; display: inline-block; vertical-align: middle; margin-right: 18px;}
 
 /* 에너지 사용량 CSS */
-.enr-cont{padding: 42px;}
+.enr-cont{padding-top: 20px;}
 .enr-usg{display: inline-flex;}
-.enr-usg p{font-size: 0.95em;}
+.enr-usg p{font-size: 0.95em; color: #fff;}
 .all-use{border-right: #72747d 1px solid; margin-right: 50px; padding-right: 50px;}
 .enr-cir{width: 132px; height: 132px; border-radius: 50%; position: relative;}
-.enr-cir p{font-size: 1.25em; font-weight: 700;}
+.enr-cir p{font-size: 1.25em; font-weight: 700; color: #fff;}
 .all-use .enr-cir{background : linear-gradient(180deg, #45b2ff, #0057b8); }
 .energy-eff .enr-cir{background : linear-gradient(180deg, #b895ff, #4c2dbf);}
 .all-use .enr-cir p{position: absolute; top: 30%; left: 30%;}
@@ -44,14 +44,15 @@ ul, li{list-style: none;}
 .energy-eff .enr-cir p{position: absolute; top: 38%; left: 36%;}
 
 /* 설비 가동 현황 CSS */
+.equip-title{margin-bottom: 38px !important;}
 .equip-cont{margin-bottom: 32px;}
 .equip-cont:last-child{margin-bottom: 0;}
 .equip-graph-title{display: flex; justify-content: space-between; margin-bottom: 12px;}
-.equip-graph-title .fl-fs p{font-size: 0.95em; padding: 0; margin: 0;}
-.equip-graph-title .fl-fs p::before{content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background-color: #a8a8a8; margin-right: 15px; vertical-align: middle;}
+.equip-graph-title .fl-fs p{font-size: 0.95em; padding: 0; margin: 0; color: #fff;}
+.equip-graph-title .fl-fs p::before{content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background-color: #a8a8a8; margin-right: 10px; margin-left: 5px; vertical-align: middle;}
 .equip-graph-title .fr p{font-size: 0.875em; padding: 0; margin: 0;}
 .equip-graph{background-color: #222531; width: 100%; height: 70px; border-radius: 10px; display: flex; justify-content: space-around; padding: 16px 30px;}
-.equip-graph ul{display: flex; justify-content: space-between; width: 100%; font-size: 0.95em; padding: 0; margin: 0 3em 0 0;}
+.equip-graph ul{display: flex; justify-content: space-between; width: 100%; font-size: 0.95em; padding: 0; margin: 0 5em 0 0;}
 .equip-graph ul:last-child{margin-right: 0;}
 .equip-graph ul li{line-height: 38px; vertical-align: bottom; color:#fff;}
 .temper::before{background: url(../images/Common/temper.png) no-repeat; display: inline-block; content: ""; width: 40px; height: 40px; vertical-align: bottom; background-position: center center; margin-right: 15px;}
