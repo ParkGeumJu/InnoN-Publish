@@ -27,7 +27,6 @@ ul, li{list-style: none;}
 .pro-cont div p{display: inline; color: #fff;}
 .pro-cont div:first-child{border-right: #72747d 1px solid; width: 50%; text-align:center;}
 .pro-cont{display: flex; justify-content: space-around; background-color: #424553; border-radius: 5px; font-weight: 500; width: 100%;}
-.pro-cont div p{display: inline; color: #fff;}
 .pro-cont .per{margin-top: 5px; width: 50%; }
 .pro-cont .per span{font-size: 0.95em;}
 .pro-cont .per p::before{background: url(../images/Common/arrow.png) no-repeat; content: ""; width: 35px; height: 47px; display: inline-block; vertical-align: middle; margin-right: 15px;}
